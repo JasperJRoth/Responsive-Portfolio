@@ -173,3 +173,30 @@ footer div{
 
     font-size: 1.3em;
 }
+
+@media screen and (max-width: 980px){
+    .contentCard{
+        width: 90%;
+    }
+
+    .contactInput, .msgInput{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    
+}
+
+@media screen and (max-width: 640px){
+    #name, #links{
+        float: none;
+    }
+
+    #links{
+        display: flex;
+
+        justify-content: center;
+    }
+}
